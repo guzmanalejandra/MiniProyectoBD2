@@ -6,6 +6,8 @@ const collection=require("./mongodb")
 
 const tempelatePath=path.join(__dirname, '../tempelates')
 
+
+app.use(express.static('public'))
 app.use(express.json())
 app.set("view engine", "hbs")
 app.set("views", tempelatePath)
@@ -53,6 +55,6 @@ app.post("/login",async (req,res)=>{
     
 })
 
-app.listen(3000,()=>{
+app.listen(5500,()=>{
     console.log("port connected");
 })

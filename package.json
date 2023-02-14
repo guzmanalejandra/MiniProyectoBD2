@@ -1,10 +1,9 @@
 {
   "name": "proyectomini01bd",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +18,14 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "session": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzmanalejandra/MiniProyectoBD2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guzmanalejandra/MiniProyectoBD2/issues"
+  },
+  "homepage": "https://github.com/guzmanalejandra/MiniProyectoBD2#readme",
+  "description": ""
 }
