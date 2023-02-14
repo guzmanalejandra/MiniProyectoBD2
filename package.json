@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js | browser-sync start --proxy 'localhost:3000' --files 'public/**/*.*'"
   },
   "keywords": [],
   "author": "",
